@@ -9,19 +9,19 @@ newP.textContent = "All of this was created with Javascript!"
 document.body.append(newP)
 newP.style.textAlign = "center"
 newP.style.fontSize = "30px"
+ 
+var newLi1 = document.createElement("li")
+newLi1.textContent = "JavaJavaJavaJavaJava"
 
-var newLi = documents.createElement("li")
-newLi.textContent = "You can do it"
-document.body.append(li)
+var newLi2 = document.createElement("li")
+newLi2.textContent = "JavaJavaJavaJavaJavaJava"
 
-var newLi = documents.createElement("li")
-newLi.textContent = "Dedication is the key"
-document.body.append(li)
+var newLi3 = document.createElement("li")
+newLi3.textContent = "JavaJavaJavaJavaJavaJavaJava"
 
-var newLi = documents.createElement("li")
-newLi.textContent = "Never quit on yourself"
-document.body.append(li)
-
+var ol = document.createElement("ol")
+ol.append(newLi1,newLi2,newLi3)
+document.body.append(ol)
 
 
 
